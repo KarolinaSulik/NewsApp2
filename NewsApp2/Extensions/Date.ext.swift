@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Date {
+extension Date {
     func getStringRepresentation() -> String{
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd. MMM yyyy - HH:mm "

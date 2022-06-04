@@ -25,6 +25,7 @@ class NewsLabel: UILabel {
         self.translatesAutoresizingMaskIntoConstraints = false
     }
     
+    //StoryBoard initializer
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
