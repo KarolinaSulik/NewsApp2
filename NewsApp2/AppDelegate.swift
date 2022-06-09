@@ -15,10 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 //        guard let windowScene = (scene as? UIWindowScene) else { return }
-        let window = UIWindow()
-        window.rootViewController = ViewController()
-        self.window = window
-        window.makeKeyAndVisible()
+//        let window = UIWindow()
+//        window.rootViewController = ViewController()
+//        self.window = window
+//        window.makeKeyAndVisible()
         return true
     }
 

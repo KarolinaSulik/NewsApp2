@@ -18,6 +18,8 @@
 		B243023A2847D81700025790 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24302392847D81700025790 /* NetworkManager.swift */; };
 		B243023C284A620100025790 /* Date.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243023B284A620100025790 /* Date.ext.swift */; };
 		B2430240284A645500025790 /* NewsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243023F284A645500025790 /* NewsLabel.swift */; };
+		B277077E285152410093DE5F /* UIViewController.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B277077D285152410093DE5F /* UIViewController.ext.swift */; };
+		B27707802851648D0093DE5F /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B277077F2851648D0093DE5F /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B24302392847D81700025790 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B243023B284A620100025790 /* Date.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.ext.swift; sourceTree = "<group>"; };
 		B243023F284A645500025790 /* NewsLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsLabel.swift; sourceTree = "<group>"; };
+		B277077D285152410093DE5F /* UIViewController.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.ext.swift; sourceTree = "<group>"; };
+		B277077F2851648D0093DE5F /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 			children = (
 				B243023028468BC800025790 /* UIView+Ext.swift */,
 				B243023B284A620100025790 /* Date.ext.swift */,
+				B277077D285152410093DE5F /* UIViewController.ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				B243021E2846378E00025790 /* ViewController.swift */,
+				B277077F2851648D0093DE5F /* DetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -210,9 +216,11 @@
 			files = (
 				B243021F2846378E00025790 /* ViewController.swift in Sources */,
 				B243021B2846378E00025790 /* AppDelegate.swift in Sources */,
+				B27707802851648D0093DE5F /* DetailVC.swift in Sources */,
 				B243023128468BC800025790 /* UIView+Ext.swift in Sources */,
 				B243023A2847D81700025790 /* NetworkManager.swift in Sources */,
 				B243022F2846859400025790 /* NewsTableViewCell.swift in Sources */,
+				B277077E285152410093DE5F /* UIViewController.ext.swift in Sources */,
 				B24302332847D44900025790 /* Articles.swift in Sources */,
 				B2430240284A645500025790 /* NewsLabel.swift in Sources */,
 				B243023C284A620100025790 /* Date.ext.swift in Sources */,
